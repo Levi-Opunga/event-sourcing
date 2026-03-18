@@ -1,0 +1,82 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.codekxlabs",
+    "module": "event-sourcing-annotations",
+    "version": "0.0.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "event-sourcing-annotations-0.0.1-SNAPSHOT.jar",
+          "url": "event-sourcing-annotations-0.0.1-SNAPSHOT.jar",
+          "size": 2217,
+          "sha512": "3d7bde118943d44acfd87ea1cfdeef90fdc8af298513d852aedd9649a9577d78f620874fc8b91a89df56d005d29b18eaf25e768907bdd86c6f4a48444fba6bd0",
+          "sha256": "8fd958d737f5f89559564f888ac2ae9d840ed660e6f013a7621cab21c418b02a",
+          "sha1": "9112f661585bce88781347364a4fcf392f9e9a4c",
+          "md5": "893f19c1bee7d272dd5a006e2af5fdd2"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "event-sourcing-annotations-0.0.1-SNAPSHOT.jar",
+          "url": "event-sourcing-annotations-0.0.1-SNAPSHOT.jar",
+          "size": 2217,
+          "sha512": "3d7bde118943d44acfd87ea1cfdeef90fdc8af298513d852aedd9649a9577d78f620874fc8b91a89df56d005d29b18eaf25e768907bdd86c6f4a48444fba6bd0",
+          "sha256": "8fd958d737f5f89559564f888ac2ae9d840ed660e6f013a7621cab21c418b02a",
+          "sha1": "9112f661585bce88781347364a4fcf392f9e9a4c",
+          "md5": "893f19c1bee7d272dd5a006e2af5fdd2"
+        }
+      ]
+    }
+  ]
+}
